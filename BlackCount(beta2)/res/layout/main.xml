@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+	android:paddingLeft="16dp"
+	android:paddingRight="16dp"
+	android:paddingTop="30dp"
+    android:gravity="left"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		android:textSize="20.0dp"
+		android:textColor="#ffdddddd"
+		android:textStyle="bold"
+        android:text="팀 블랙카운트의 앱입니다." />
+	
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="15dp"
+		android:textColor="#ffffffff"
+		android:textSize="15.0dp"
+		android:text="팀원들의 편의와 정보제공을 위하여 앞으로 여러가지 기능을 추가할예정입니다." />
+	
+	<Button
+		android:id="@+id/button1"
+		android:layout_width="fill_parent"
+		android:layout_height="35dp"
+		android:layout_marginTop="12dp"
+		android:textSize="13dp"
+		android:text="팀 홈페이지/WebView" />
+
+</LinearLayout>
